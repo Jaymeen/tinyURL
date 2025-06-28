@@ -22,7 +22,7 @@ public class ShortUrl {
     Long id;
 
     @Column(unique = true, nullable = false)
-    private String shortUrl;
+    private String shortCode;
 
     @Column(nullable = false)
     private String longUrl;
@@ -32,4 +32,7 @@ public class ShortUrl {
 
     @Column(nullable = false)
     private LocalDateTime expiresAt;
+
+    @Column(nullable = false)
+    private int clickCount;
 }

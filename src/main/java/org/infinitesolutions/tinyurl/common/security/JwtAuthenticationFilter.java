@@ -27,7 +27,7 @@ import java.util.List;
 
 @Component
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
-    private String jwkUrl = "https://cognito-idp.ap-south-1.amazonaws.com/ap-south-1_oyi9gS83e";
+    private String jwkUrl = "https://cognito-idp.ap-south-1.amazonaws.com/ap-south-1_Q8DUFFpeL";
 
     private final JwkProvider jwkProvider;
 

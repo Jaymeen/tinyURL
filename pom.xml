@@ -10,7 +10,7 @@
     </parent>
     <groupId>org.infinitesolutions</groupId>
     <artifactId>tinyURL</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>tinyURL</name>
     <description>tinyURL</description>
     <url/>

@@ -42,6 +42,8 @@ public class UrlShortnerController {
     public ResponseEntity<?> redirect(@PathVariable String code) {
         String longUrl = urlShortenerService.getLongUrl(code);
 
+//        return ResponseEntity.status(HttpStatus.FOUND).body(longUrl);
+
         return ResponseEntity.status(HttpStatus.MOVED_PERMANENTLY)
                 .location(URI.create(longUrl))
                 .build();
